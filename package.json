@@ -1,0 +1,24 @@
+{
+  "name": "@kipicenko/test-github-packages",
+  "publishConfig": {
+    "@kipicenko:registry": "https://npm.pkg.github.com"
+  },
+  "version": "1.0.0",
+  "description": "Testing Github Packages",
+  "main": "index.js",
+  "module": "module.js",
+  "files": [
+    "index.js",
+    "module.js"
+  ],
+  "packageManager": "yarn@4.1.1",
+  "homepage": "https://github.com/Kipicenko/test-github-packages#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kipicenko/test-github-packages.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kipicenko/test-github-packages/issues"
+  },
+  "author": "Kipicenko"
+}
