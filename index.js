@@ -1,5 +1,9 @@
 function helloWorld() {
-    console.log('Hello World! 222');
+    console.log('Hello World!');
 }
 
-module.exports = { helloWorld };
+function getName() {
+    return 'Alexey';
+}
+
+module.exports = { helloWorld, getName };

@@ -1,3 +1,7 @@
 export function helloWorld() {
-    console.log('Hello World! 222');
+    console.log('Hello World!');
+}
+
+export function getName() {
+    return 'Alexey';
 }
